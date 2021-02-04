@@ -41,7 +41,10 @@ const InfoCV = ({primary, lightBg, imgStart, lightTopLine, lightTextDesc, button
                       </TextWrapper> 
                     </InfoColumn>
                     <InfoColumn>
-                       
+                    <ImgWrapper start={start}>
+                        
+                        <Img src={img} alt={alt}/>
+                    </ImgWrapper>
                         
                     </InfoColumn>
                 </InfoRow>

@@ -90,7 +90,7 @@ export const homeObjSix = {
     headline: 'Dreams Become Reality' ,
     lightText: false,
     topLine: 'Curriculum Vitae', 
-    
+    img: require('../../images/downtownsd.jpg').default,
     alt: 'Image', 
     start: 'start'
 };
