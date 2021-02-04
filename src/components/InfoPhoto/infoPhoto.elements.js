@@ -2,13 +2,13 @@ import styled from 'styled-components';
 
 export const InfoSec = styled.div`
     color: #fff;
-    padding: 160px 0;
+    padding: 0;
     background: ${({ lightBg }) => (lightBg ? '#fff' : '#101522')};
     `;
 
 export const InfoRow = styled.div`
     display: flex;
-    margin: 0 -15px -15px -15px;
+    margin:  -15px -15px -15px;
     flex-wrap: wrap;
     align-items: center;
     flex-direction: ${({ imgStart }) => (imgStart ? 'row-reverse' : 'row')
@@ -17,8 +17,7 @@ export const InfoRow = styled.div`
 
 export const InfoColumn = styled.div`
     margin-bottom: 15px;
-    padding-right: 15px;
-    padding-left: 15px;
+    
     flex: 1;
     max-width: 50%;
     flex-basis: 50%;
@@ -32,9 +31,9 @@ export const InfoColumn = styled.div`
     `;
 
 export const TextWrapper = styled.div`
-    max-width: 540px;
-    padding-top: 0;
-    padding-bottom: 5px;
+    max-width: 555px;
+    padding-top: 50px;
+    padding-bottom: 0px;
     
     @media screen and (max-width: 768px) {
         padding-bottom: 65px;
@@ -45,9 +44,9 @@ export const TextWrapper = styled.div`
 export const TopLine = styled.div`
     color: ${({ lightTopLine }) => (lightTopLine ? '#a9b3c1' : '#4b59F7')};
     font-size: 18px;
-    line-height: 16px;
+    line-height: 22px;
     letter-spacing: 1.4px;
-    margin-bottom: 16px;
+    margin-bottom: 22px;
     `;
 
 export const Heading = styled.h1`

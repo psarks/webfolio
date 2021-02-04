@@ -1,5 +1,5 @@
 import React from 'react';
-import { homeObjThree } from './Data';
+import { homeObjThree, homeObjFour } from './Data';
 import { InfoPhoto} from '../../components';
 
 
@@ -8,6 +8,7 @@ import { InfoPhoto} from '../../components';
     return (
         <>
         <InfoPhoto {...homeObjThree}/>
+        <InfoPhoto {...homeObjFour}/>
            
         </>
     )

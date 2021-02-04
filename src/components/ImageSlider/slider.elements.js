@@ -11,8 +11,8 @@ export const Section = styled.div`
 `;
 
 export const Img = styled.img`
-    width: 500px;
-    height: 350px;
+    width: 650px;
+    height: 650px;
     border-radius: 10px;
 
 `;
@@ -37,17 +37,9 @@ export const NavLeft = styled(IoIosArrowBack)`
     color: #fff;
     z-index: 10;
     cursor: pointer;
+    user-select: none;
     
 `;
 
-export const Slide = styled.div`
-    opacity: 0;
-    transition-duration: 1s ease;
-`;
 
-export const SlideActive = styled.div`
-    opacity: 1;
-    transition-duration: 1s;
-    transform: scale(1.08);
-`;
 
