@@ -1,5 +1,5 @@
 import React from 'react';
-import {homeObjSix, homeObjFive} from './Data';
+import {homeObjSix} from './Data';
 import { InfoCV} from '../../components';
 
 
@@ -10,7 +10,6 @@ const CV = () => {
         <>
             
             <InfoCV {...homeObjSix}/>
-            <InfoCV {...homeObjFive}/>
             
         
         </>

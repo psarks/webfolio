@@ -1,6 +1,6 @@
 import React from 'react';
-import { homeObjThree, homeObjFour } from './Data';
-import { InfoPhoto, InfoSection} from '../../components';
+import { homeObjThree} from './Data';
+import { InfoPhoto} from '../../components';
 
 
  const Photography = () => {
@@ -8,7 +8,7 @@ import { InfoPhoto, InfoSection} from '../../components';
     return (
         <>
         <InfoPhoto {...homeObjThree}/>
-        <InfoSection {...homeObjFour}/>
+       
            
         </>
     )
