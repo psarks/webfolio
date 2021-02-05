@@ -1,15 +1,13 @@
 import React from 'react';
-import {homeObjFive} from './Data';
+import { homeObjFive} from './Data'
 import { InfoSection } from '../../components'
 
-const CaseStudy = () => {
+const Casestudy = () => {
     return (
         <>
-            
-            <InfoSection {...homeObjFive}/>
-        
+         <InfoSection {...homeObjFive}/>    
         </>
     )
 }
 
-export default CaseStudy;
+export default Casestudy;
