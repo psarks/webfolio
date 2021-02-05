@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Link } from 'react-router-dom'
+
 
 
 
@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom'
 import { Container, Button } from '../../globalStyles'
 import { Modal } from '../Modal/modal';
 import {InfoSec, InfoRow, InfoColumn, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Img } from './infoCv.elements'
-import {pdfFile} from '../../components/Modal/cv2020.pdf'
+
 
 
 const InfoCV = ({primary, lightBg, imgStart, lightTopLine, lightTextDesc, buttonLabel, description, headline, lightText, topLine, img, alt, start}) => {
@@ -35,7 +35,7 @@ const InfoCV = ({primary, lightBg, imgStart, lightTopLine, lightTextDesc, button
                                 {buttonLabel}
                             </Button>
                             <Modal showModal={showModal} setShowModal={setShowModal}>
-                              <a href=""/>
+                              
                               </Modal>
                         
                       </TextWrapper> 
