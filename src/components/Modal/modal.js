@@ -43,7 +43,7 @@ export const Modal = ({ showModal, setShowModal }) => {
     
     <> 
         {showModal ? ( 
-            <Background>
+            <Background onClick={closeModal} ref={modalRef}>
                 <animated.div style={animation}>
                 <ModalWrapper showModal={showModal}>
                     <ModalImg src={penguin} alt='resume' />
