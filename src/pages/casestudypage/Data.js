@@ -63,17 +63,17 @@ export const homeObjFour = {
 };
 
 export const homeObjFive = {
-    lightBg: false,
-    primary: true,
+    lightBg: true,
+    primary: false,
     imgStart:'start', 
-    lightTopLine: true, 
-    lightTextDesc: true,
+    lightTopLine: false, 
+    lightTextDesc: false,
     buttonLabel: 'Get Started',
-    description: 'Welcome to my page. I am Paulina an up and coming Web Developer with a focus on front-end code ',
+    description: 'Here is my case study for Slack it was my individual project for Cogs 127 at UCSD',
     headline: 'Together Listen Create' ,
-    lightText: true,
+    lightText: false,
     topLine: 'Case Study', 
-    img: require('../../images/me.svg').default,
+    img: require('../../images/casestudyimages/slack-1.svg').default,
     alt: 'Image', 
     start: ''
 };
