@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { SliderData } from './SliderData';
-import {Section, NavLeft, NavRight, Img} from './slider.elements'
-import './slider.elements.css'
+import React, { useState } from "react";
+import { SliderData } from "./SliderData";
+import { Section, NavLeft, NavRight, Img } from "./slider.elements";
+import "./slider.elements.css";
 
 const ImageSlider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
@@ -26,16 +26,15 @@ const ImageSlider = ({ slides }) => {
       {SliderData.map((slide, index) => {
         return (
           <div
-            className={index === current ? 'slide active' : 'slide'}
+            className={index === current ? "slide active" : "slide"}
             key={index}
           >
             {index === current && (
-              <Img src={slide.image} alt='travel image' className='image' />
+              <Img src={slide.image} alt="travel image" className="image" />
             )}
           </div>
         );
       })}
-      
     </Section>
   );
 };
