@@ -9,6 +9,7 @@ const infoCaseStudy = () => {
         {casestudyData.map((item) => (
           <CaseStudy key={item.id} direction={item.direction}>
             <CaseStudy.Pane>
+              <CaseStudy.Header>{item.header}</CaseStudy.Header>
               <CaseStudy.Title>{item.title}</CaseStudy.Title>
               <CaseStudy.SubTitle>{item.subTitle}</CaseStudy.SubTitle>
             </CaseStudy.Pane>

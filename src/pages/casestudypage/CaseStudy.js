@@ -3,6 +3,7 @@ import {
   Item,
   Inner,
   Pane,
+  Header,
   Title,
   SubTitle,
   Image,
@@ -25,6 +26,9 @@ CaseStudy.Pane = function CaseStudyPane({ children, ...restProps }) {
   return <Pane {...restProps}> {children}</Pane>;
 };
 
+CaseStudy.Header = function CaseStudyHeader({ children, ...restProps }) {
+  return <Header {...restProps}>{children}</Header>;
+};
 CaseStudy.Title = function CaseStudyTitle({ children, ...restProps }) {
   return <Title {...restProps}> {children}</Title>;
 };
