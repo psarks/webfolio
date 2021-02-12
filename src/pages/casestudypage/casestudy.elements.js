@@ -2,8 +2,9 @@ import styled from "styled-components/macro";
 
 export const Item = styled.div`
   display: flex;
-  border-bottom: 8px solid #222;
-  padding: 50px 5%;
+  border-bottom: 2px solid #222;
+  padding: 80px 5%;
+  background-color: #85e0ff;
   color: black;
   overflow: hidden;
 `;
@@ -14,7 +15,7 @@ export const Inner = styled.div`
   /*passing prop direction*/
   flex-direction: ${({ direction }) => direction};
   justify-content: space-between;
-  max-width: 1100px;
+  max-width: 1800px;
   margin: auto;
   width: 100%;
 
@@ -24,7 +25,9 @@ export const Inner = styled.div`
 `;
 
 export const Pane = styled.div`
+  font-size: 50px;
   width: 50%;
+  padding: 50px;
 
   @media (max-width: 1000px) {
     width: 100%;
@@ -33,8 +36,12 @@ export const Pane = styled.div`
   }
 `;
 
-export const Title = styled.h1`
+export const Header = styled.div`
   font-size: 50px;
+`;
+
+export const Title = styled.h1`
+  font-size: 40px;
   line-height: 1.1;
   margin-bottom: 8px;
 
