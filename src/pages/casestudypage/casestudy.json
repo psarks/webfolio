@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "title": "Slack \n\n Project collaborators need a better organization feature with a delay in notifications so they can have seamless productivity at a point in time they are currently busy",
+        "subTitle": "Working in general can be tough not everyone will have their dream job. The work environment everyone goes through will be different and so I want to enhance the way we are organized, in Slack, and take away some of the clutter. Meaning, being able to add certain folders in the channels that can organize projects alot cleaner, adding tags on previous conversations to help locate them quicker or just to help them get located. It would not end there, when you work from home it does not mean you work near your new project you just landed, it could mean you live anywhere, even across the world. In the channel section I think it is ideal for individuals who are remote employees to include a location privilege folder in the channel section. This folder can be named by the project or location or anything they see fit. Also, for locations, having a geolocation set could help automatically set off notifications and when a message is being sent to the individual a reply message can be sent back saying “out of the office”. This could really help individuals when they are on the move and the messenger getting notified helps with business. Overall, businesses should care about making the adjustments in Slack because it will make the work experience from home less difficult and or overwhelming for teams and individuals.", 
+        "image": "/images/casestudyimages/slack-1.svg", 
+        "alt": "slackimage",
+        "direction": "row"
+
+    },
+    {
+        "id": 2,
+        "title":"UI/UX Research", 
+        "subTitle": "One of my main research goals was to understand what people wanted out of Slack. Not just what I would like to see happen, but what we would all like to see different. The only way I could figure out what others felt they needed is by reading reviews, setting up surveys, or even asking my actual teams that use Slack on a daily basis for their opinions. I focused on the direct observation from both the App store and Google Play store. In the App store they had a little less than 1000 reviews, but in the Google play store had thousands.", 
+        "image": "/images/casestudyimages/research.svg",
+        "image2": "/images/casestudyimages/research2.svg",
+        "alt": "research1",
+        "direction": "row-reverse"
+
+    },
+
+    { 
+        "id": 3,
+        "title": "Personas",
+        "subTitle": "In this research I wanted to display two types of people that work in project based work. One is a web developer and the other a UI/UX designer. Both use Slack 90% of their time to communicate with clients and their teams. These people have gone through frustrating times with Slack. To many notifications are running, th eflow or organization has not been the best for them andd their teams productivity.",
+        "image": "/images/casestudyimages/personas.svg", 
+        "alt": "personas",
+        "direction": "row"
+
+    },
+
+    { 
+        "id": 4,
+        "title": "Competitor Analysis",
+        "subTitle": "I have looked into Slack competitors and gave great thought as to what the users are looking for in their online work communication. Many have tried, but have missed the most basic needs the users want for an online team communication application. ",
+        "image": "/images/casestudyimages/competitoranalysis.svg", 
+        "alt": "competitoranalysis",
+        "direction": "row-reverse"
+
+    },
+  
+    { 
+        "id": 5,
+        "title": "User Flow",
+        "subTitle": "I designed this user flow with two designs. Flow 1 focuses on organization. I want to keep the cahnnels organized because sometimes conversations can gt lost. The entry point will be the same in Slack. Once a channel is being created it has an option to add a folder or to keep it as is.",
+        "image": "/images/casestudyimages/flow1", 
+        "alt": "flow1",
+        "direction": "row"
+
+    },
+
+    { 
+        "id": 6,
+        "title": "User Flow 2",
+        "subTitle": " This entry points flows directly through notification center and ask either would like to completely turn off notifications for the time being as you are working or keep it on. When it is off you cannot recieve notifications, meaning no interruptions as one completes important tasks. They will still get a reminder that there are messages to look at when they are available to reply. If you like to have your notifications on at all times there would still be a default settings and or a personal automated reply. The automated reply will send out a personal message back to each sender. Overall, the automated message is meant to notify users and help understand how people are currently busy.",
+        "image": "/images/casestudyimages/flow2.svg", 
+        "alt": "flow2",
+        "direction": "row-reverse"
+
+    },
+
+    { 
+        "id": 7,
+        "title": "UI Sketch",
+        "subTitle": "These sketches helped bring to life my ideas about the changes that can help with user productivity with Slack. I really wanted to take out all my thoughts and put it to paper. Sketches really help with figuring out where and how features can and should change. ",
+        "image": "/images/casestudyimages/sketch.svg", 
+        "alt": "sketch",
+        "direction": "row"
+
+    },
+
+    { 
+        "id": 8,
+        "title": "Low Fidelity",
+        "subTitle": " This entry points flows directly through notification center and ask either would like to completely turn off notifications for the time being as you are working or keep it on. When it is off you cannot recieve notifications, meaning no interruptions as one completes important tasks. They will still get a reminder that there are messages to look at when they are available to reply. If you like to have your notifications on at all times there would still be a default settings and or a personal automated reply. The automated reply will send out a personal message back to each sender. Overall, the automated message is meant to notify users and help understand how people are currently busy.",
+        "image": "/images/casestudyimages/lowfidelity.png", 
+        "alt": "lowfidelity",
+        "direction": "row-reverse"
+
+    },
+
+    { 
+        "id": 9,
+        "title": "High Fidelity",
+        "subTitle": "My high fidelity brings to life the added features to Slack. It has a calendar with information for the day week or months. The Notes section is important when there are group conversations and you want to take notes instead of going back old conversations for information. The to do list will help with daily tasks that need to be completed and teams can look at each others tasks. ",
+        "image": "/images/casestudyimages/highfidelity.png", 
+        "alt": "highfidelity",
+        "direction": "row"
+
+    },
+
+    { 
+        "id": 10,
+        "title": "Before and After",
+        "subTitle": "I wanted to keep things as simple as possible. This was not the case while creating the folders. As soon as I began my user testing, it was brought up to my attention that I needed to redesign my thought process for the folders. Once user testing began, the users found it difficult to understand what the round border was for in the folders. It was not until i explained to them it was meant for a swipe to open folder. Second redesign, I instead kept a small folder icon and the users can just press the channel they want to go into from the group they are looking for.   ",
+        "image": "/images/casestudyimages/changes.svg", 
+        "alt": "beforeandafter",
+        "direction": "row-reverse"
+
+    },
+
+    { 
+        "id": 11,
+        "title": "Final Design",
+        "subTitle": "These three artboards I chose to represent my work because it shows my ideas I wanted to accomplish. I needed to address the difficulty people go through when apps are not or have a big distraction factor for instance the notification center while working. ",
+        "image": "/images/casestudyimages/highfidelity.png", 
+        "alt": "highfidelity",
+        "direction": "row"
+
+    }
+
+]
