@@ -6,7 +6,7 @@ import About from "./pages/aboutpage/About";
 import Photography from "./pages/photographypage/Photography";
 import Projects from "./pages/projectspage/Projects";
 import Cv from "./pages/cvpage/CV";
-import CaseStudy from "./pages/casestudypage/CaseStudy";
+import infoCaseStudy from "./pages/casestudypage/infoCaseStudy";
 import Bucketlist from "./pages/bucketlistpage/bucketlist";
 import { Navbar, Footer } from "./components";
 import ScrollToTop from "./components/ScrollToTop";
@@ -23,7 +23,7 @@ function App() {
         <Route path="/photography" component={Photography} />
         <Route path="/projects" component={Projects} />
         <Route path="/cv" component={Cv} />
-        <Route path="/casestudy" component={CaseStudy} />
+        <Route path="/casestudy" component={infoCaseStudy} />
         <Route path="/bucketlist" component={Bucketlist} />
       </Switch>
       <Footer />

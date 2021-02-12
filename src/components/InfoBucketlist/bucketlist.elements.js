@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import slackimg from "../../images/casestudyimages/slack-1.svg";
 
 export const InfoRow = styled.div`
   display: flex;
