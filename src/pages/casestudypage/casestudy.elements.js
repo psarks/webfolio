@@ -2,10 +2,10 @@ import styled from "styled-components/macro";
 
 export const Item = styled.div`
   display: flex;
-  border-bottom: 2px solid #222;
+
   padding: 80px 5%;
   background-color: #85e0ff;
-  color: black;
+
   overflow: hidden;
 `;
 
@@ -37,13 +37,21 @@ export const Pane = styled.div`
 `;
 
 export const Header = styled.div`
-  font-size: 50px;
+  font-size: 100px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+
+  @media (max-width: 600px) {
+    font-size: 70px;
+  }
 `;
 
 export const Title = styled.h1`
-  font-size: 40px;
+  font-size: 30px;
+  font-family: "Brygada 1918", serif;
   line-height: 1.1;
   margin-bottom: 8px;
+  text-align: center;
 
   @media (max-width: 660px) {
     font-size: 35px;
@@ -53,7 +61,8 @@ export const Title = styled.h1`
 export const SubTitle = styled.h2`
   font-size: 26px;
   font-weight: normal;
-  line-height: normal;
+  line-height: 35px;
+  font-family: "David Libre", serif;
 
   @media (max-width: 600px) {
     font-size: 18px;
